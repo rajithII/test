@@ -8,7 +8,10 @@ build:
 commands:
 - echo Build started on `date`
 - mkdir abc
-
 artifacts:
 files:
-- 'test-indhaler/build.zip'
+files:
+- '**/*'
+base-directory: 'build-test'
+discard-paths: yes
+
