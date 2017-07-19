@@ -7,9 +7,8 @@ commands:
 - apt-get install -y maven
 build:
 commands:
-artifacts: test.zip
-files:
-- './test.zip'
-base-directory: 'build-test*'
+artifacts:
+ files:
+- target/test.zip
 discard-paths: yes
 
