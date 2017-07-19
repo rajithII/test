@@ -16,4 +16,4 @@ commands:
 - echo Build completed on `date`
 artifacts:
 files:
-- test-indhaler/build.zip
+- */build.zip
