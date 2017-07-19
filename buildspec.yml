@@ -9,7 +9,7 @@ commands:
 build:
 commands:
 - echo Build started on `date`
-- mvn install
+- mkdir abc
 post_build:
 commands:
 - echo Build completed on `date`
