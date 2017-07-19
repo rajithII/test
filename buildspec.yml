@@ -3,11 +3,9 @@ phases:
 install:
 commands:
 - apt-get update -y
-- echo Nothing to do in the install phase...
+- apt-get install -y maven
 build:
 commands:
-- echo Build started on `date`
-- mkdir abc
 artifacts:
 files:
 files:
