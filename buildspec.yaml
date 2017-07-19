@@ -5,6 +5,5 @@ commands:
 - echo $CODEBUILD_SRC_DIR
 - apt-get update -y
 - apt-get install -y maven
-build:
-commands:
+
 
