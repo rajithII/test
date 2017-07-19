@@ -9,6 +9,6 @@ commands:
 artifacts:
 files:
 - '**/*'
-base-directory: 'build-test'
+base-directory: 'build-test*'
 discard-paths: yes
 
