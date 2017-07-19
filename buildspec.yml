@@ -8,7 +8,7 @@ build:
 commands:
 artifacts:
 files:
-- 'build.zip'
+- 'test.zip'
 base-directory: 'build-test*'
 discard-paths: yes
 
