@@ -4,16 +4,11 @@ install:
 commands:
 - apt-get update -y
 - echo Nothing to do in the install phase...
-pre_build:
-commands:
-- echo Nothing to do in the pre_build phase...
 build:
 commands:
 - echo Build started on `date`
 - mkdir abc
-post_build:
-commands:
-- echo Build completed on `date`
+
 artifacts:
 files:
-- '**/*'
+- 'test-indhaler/build.zip'
