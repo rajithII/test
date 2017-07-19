@@ -7,8 +7,4 @@ commands:
 - apt-get install -y maven
 build:
 commands:
-artifacts:
- files:
-- target/test.zip
-discard-paths: yes
 
