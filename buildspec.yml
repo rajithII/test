@@ -8,7 +8,6 @@ build:
 commands:
 artifacts:
 files:
-files:
 - '**/*'
 base-directory: 'build-test'
 discard-paths: yes
