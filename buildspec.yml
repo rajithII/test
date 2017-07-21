@@ -5,7 +5,7 @@ phases:
     commands:
       - apt-get update -y
       - sudo apt-get install npm -y
-      - sudo apt-get install docker.io
+      - sudo apt-get install docker.io -y
       - sudo service docker.io start
       - sudo docker pull nginx
 
