@@ -1,12 +1,11 @@
 version: 0.2
-phases: Download
-install:
+phases: 
 commands:
 - sudo curl -sSL https://get.docker.com/ | sh
 pre_build:
 commands:
-- npm install
-- bower install
+- apt-get install npm
+- apt-get install bower
 build:
 commands:
 - sudo docker pull nginx
