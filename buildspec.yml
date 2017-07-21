@@ -3,10 +3,10 @@ version: 0.2
 phases:
   build:
     commands:
-      - apt-get update -y
+      - sudo apt-get update -y
       - sudo apt-get install npm -y
-      - sudo apt-get install docker.io -y
-      - sudo service docker.io start
+      - sudo apt-get install docker -y
+      - sudo service docker start
       - sudo docker pull nginx
 
 artifacts:
