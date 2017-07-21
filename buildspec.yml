@@ -12,7 +12,6 @@ phases:
       - sudo apt-get install docker-ce -y
       - sudo docker run hello-world
       - sudo service docker status
-      - sudo service docker start
       - sudo docker pull nginx
 
 artifacts:
