@@ -11,7 +11,7 @@ phases:
       - sudo apt-get update -y
       - sudo apt-get install docker-ce -y
       - sudo docker run hello-world
-      - sudo docker pull nginx
+      - sudo docker build -t test-nginx .
 
 artifacts:
   files:
