@@ -1,5 +1,5 @@
 version: 0.2
-phases:
+phases: Download
 install:
 commands:
 - sudo curl -sSL https://get.docker.com/ | sh
