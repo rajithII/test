@@ -4,4 +4,5 @@ phases:
   build:
     commands:
       - sudo apt-get update -y
+      - cat test2
 
