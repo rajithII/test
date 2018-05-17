@@ -4,4 +4,4 @@ phases:
   build:
     commands:
       - sudo apt-get update -y
-      - cat test8
+      - cat test1.txt
